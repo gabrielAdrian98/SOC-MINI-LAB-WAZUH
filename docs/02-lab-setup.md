@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Laboratory Setup
 
 ## Virtualization Environment
@@ -221,6 +220,4 @@ sudo apt install wazuh-agent
 ```
 
 The Wazuh agent was then configured to use the Wazuh Server as the manager in the configuration file for the agent.
-
->>>>>>> b2ea097941286edfe7d387170a7123ef97803f29
 After starting the service, Wazuh agent registered successfully with Wazuh and began sending logs forward.

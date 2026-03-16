@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Detection Analysis
 
 ## Summary of Analysis 
@@ -137,7 +136,7 @@ These alerts enable the SOC analyst to rapidly identify potential brute force at
 
 When reviewing the alert generated during the SSH brute force attempt, Wazuh identified the activity using one of its built-in SSH detection rules.
 
-The alert corresponds to Rule ID 5760 ![Wazuh SSH Rule](../images/wazuh-rule-5760.png), which is triggered when the system logs contain failed SSH authentication attempts. These events usually appear when multiple login attempts are made with incorrect credentials.
+The alert corresponds to Rule ID 5760 ![Wazuh SSH Rule](../images/rule-5760.png), which is triggered when the system logs contain failed SSH authentication attempts. These events usually appear when multiple login attempts are made with incorrect credentials.
 
 This rule is part of the default sshd_rules.xml ruleset and is activated when log entries match patterns such as:
 
@@ -183,6 +182,4 @@ Port scanning is typically one of the primary techniques used by attackers to de
 ## Security Monitoring Value
 
 SIEM tools like Wazuh allow security analysts to find weak spots in their networks through alerts generated during these events. By putting all of their logs together from multiple sources, security teams can see attacks on their network and respond to them as quickly as possible.
-
->>>>>>> b2ea097941286edfe7d387170a7123ef97803f29
 The next section covers how SOC analysts could respond after being alerted to these threats.

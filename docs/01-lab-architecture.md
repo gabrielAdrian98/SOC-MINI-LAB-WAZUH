@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Lab Architecture
 
 ## Description
@@ -190,5 +189,4 @@ The attacker machine can interact with the monitored Linux endpoint, and the Waz
 2. Wazuh agents collect those logs locally.
 3. The agents send the logs to Wazuh server.
 4. Wazuh analyzes the events using detection rules.
->>>>>>> b2ea097941286edfe7d387170a7123ef97803f29
 5. Alerts are generated and displayed in the dashboard for investigation.

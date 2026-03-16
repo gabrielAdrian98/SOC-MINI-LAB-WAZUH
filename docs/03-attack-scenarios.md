@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Attack Scenarios
 
 ## Overview
@@ -193,8 +192,5 @@ Both attack scenarios create different log types/methods that can be detected by
 Multiple SSH authentication failures
 Connection attempts made repeatedly from one source
 Suspicious network behaviors/patterns
-
 These are events to allow analysts to detect potential intrusions and start an investigation.
-
->>>>>>> b2ea097941286edfe7d387170a7123ef97803f29
 Further analysis on these alerts is found here: [Detection Analysis](docs/04-detection-analysis.md)

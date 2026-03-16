@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## Incident Response Playbooks
 
 ## Overview
@@ -227,8 +226,5 @@ Wazuh not only has detection capabilities, but it offers features that allow the
 ### XDR Understanding
 
 Contemporary security systems offer capabilities of discovery and responding to incidents on several separate systems at once.
-
 In a live system environment Wazuh can work with firewalls, endpoint protection software and orchestration solutions to automate a portion of the incident response ability.
-
->>>>>>> b2ea097941286edfe7d387170a7123ef97803f29
 Extended Detection and Response (XDR) enables companies to respond rapidly to an identified threat by detecting it more effectively and coordinating responses across their environment.

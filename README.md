@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Small SOC Lab in Wazuh
 
 ## Introduction
@@ -178,5 +177,4 @@ Possible improvements for this laboratory include:
 
 - Implementing automated response actions using Wazuh Active Response
 - Adding additional attack scenarios
->>>>>>> b2ea097941286edfe7d387170a7123ef97803f29
 - Integrating threat intelligence feeds
