@@ -63,28 +63,30 @@ All virtual machines are part of the same virtual network in VMware.
 The attacker machine can interact with the monitored Linux endpoint, and the Wazuh server can collect all logs from the various virtual machines/agents.
 
 ## Architecture Diagram
-
-                ┌─────────────────────┐
-                │      Kali Linux     │
-                │     (Attacker)      │
-                └─────────┬───────────┘
-                          │
-                    Simulated Attacks
-                          │
-        ┌─────────────────┴─────────────────┐
-        │                                   │
-┌───────────────┐                 ┌───────────────┐
-│   Windows 10  │                 │ Ubuntu Desktop │
-│  Wazuh Agent  │                 │  Wazuh Agent   │
-└───────┬───────┘                 └───────┬────────┘
-        │                                 │
-        │         Security Logs           │
-        └──────────────┬──────────────────┘
-                       │
-               ┌───────────────┐
-               │   Wazuh Server │
-               │   SIEM Engine  │
-               └───────────────┘
+                    ┌─────────────────┐
+                    │   Kali Linux    │
+                    │   (Attacker)    │
+                    └────────┬────────┘
+                             │
+                       Simulated
+                        Attacks
+                             │
+              ┌──────────────┴──────────────┐
+              │                              │
+              ▼                              ▼
+    ┌─────────────────┐            ┌─────────────────┐
+    │   Windows 10    │            │ Ubuntu Desktop  │
+    │  Wazuh Agent    │            │  Wazuh Agent    │
+    └────────┬────────┘            └────────┬────────┘
+             │                              │
+             │       Security Logs          │
+             └──────────────┬───────────────┘
+                            │
+                            ▼
+                   ┌─────────────────┐
+                   │  Wazuh Server   │
+                   │   SIEM Engine   │
+                   └─────────────────┘
 
 ## Log Collection Flow
 

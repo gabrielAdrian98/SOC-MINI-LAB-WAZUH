@@ -43,7 +43,7 @@ These alerts enable the SOC analyst to rapidly identify potential brute force at
 
 When reviewing the alert generated during the SSH brute force attempt, Wazuh identified the activity using one of its built-in SSH detection rules.
 
-The alert corresponds to Rule ID 5760 ![Wazuh SSH Rule](../images/wazuh-rule-5760.png), which is triggered when the system logs contain failed SSH authentication attempts. These events usually appear when multiple login attempts are made with incorrect credentials.
+The alert corresponds to Rule ID 5760 ![Wazuh SSH Rule](../images/rule-5760.png), which is triggered when the system logs contain failed SSH authentication attempts. These events usually appear when multiple login attempts are made with incorrect credentials.
 
 This rule is part of the default sshd_rules.xml ruleset and is activated when log entries match patterns such as:
 
